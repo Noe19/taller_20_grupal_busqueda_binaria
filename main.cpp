@@ -7,13 +7,14 @@ void arreglo ();
 #define tamanio(a)(sizeof(a)/sizeof(a[0]));
 */
 //UN PROGRAMA DE ORDENAMIENTO  , UNIDO CON ARCHIVOS Y FUNCIONES 
+//
 
 int main() {
   
 arreglo ();
  
  int    a[10]={1,2,3,4,5,6,7,8,9};
- ////////////
+ 
  if (arreglo(a,10,5)==-1){
    cout<<"elemtento no encontrado";
  }
@@ -48,7 +49,7 @@ if (a[k]>=b){
  cout <<"\n elemento buscado :"<<b<<endl;
  Binario<<"\nelemento encontrado :   "<< a[k]<<endl;
 
-////////////
+
 
 }
 
@@ -66,11 +67,6 @@ Binario.open("Binario.txt",ios::app);
 
   }
   
-  
-
- 
-
-
   return -1;
 
   
